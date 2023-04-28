@@ -13,7 +13,7 @@ li{
     padding: 0.3rem;
 }
 
-a{
+a{  
     text-decoration: none !important;
     
 }
@@ -296,6 +296,12 @@ footer{
  }
 
  .footer{
+    
     background: rgb(3,65,102);
     background: linear-gradient(90deg, rgba(3,65,102,1) 54%, rgba(2,125,148,1) 100%);
  }
+
+ .footer a {
+    color: white;
+ }
+ 
