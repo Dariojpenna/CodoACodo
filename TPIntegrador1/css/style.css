@@ -1,0 +1,301 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding-right: 3rem;
+}
+img{
+    
+    flex-wrap: wrap;
+}
+
+li{
+    padding: 0.3rem;
+}
+
+a{
+    text-decoration: none !important;
+    
+}
+
+.fila{
+    display: flex;
+    white-space: normal;
+    flex-wrap: nowrap;
+    background-color:rgb(68, 66, 66);
+     
+}
+
+
+.cacImg{
+    min-width: 4rem;
+    text-align: end;
+    flex-wrap: normal;
+}
+
+
+
+.conf{
+    min-width: 4rem;
+    flex-wrap: nowrap;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.image-bg{
+    height: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("/img/ba1.jpg");
+    background-size: cover;
+    background-attachment:local;
+    background-size: 100% 100%;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    
+}
+
+.image-bg .texto{
+    
+    margin-right: 0px;
+    margin-right: 5rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.bs h5{
+    text-align: end;
+}
+
+.pr p{  
+    font-size: 15px;
+    text-align: end;
+    
+}
+
+.botones{
+    text-align: end;
+}
+
+.oradores{
+    margin-top: 0px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+.carta {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    white-space: nowrap;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.carta  *{
+    white-space: normal;
+}
+
+.carta .cartas .foto{
+    width: 300px;
+    height: 293px ;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.carta .cartas{
+    margin: 2vh;
+    border: solid 1px #eee;
+    width: 300px;
+}
+
+.carta .fotoTextos{
+    text-align: start;
+    padding: 1rem;
+}
+
+.fotoTextos .name{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.textoColor p{
+    margin-bottom: 0px;
+}
+
+.textoColor .js{
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: small;
+    border-radius: 5px;
+    padding: 3px;
+    
+
+}
+
+
+
+.textoColor .react{
+    background-color: rgb(43, 177, 240);
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: small;
+  
+}
+
+.textoColor .negocios{
+    background-color: rgb(97, 93, 93);
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: small; 
+}
+
+.textoColor .startups{
+    background-color: rgb(216, 3, 3);
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.honolulu{
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    flex-grow: 1;
+    color: white;
+    
+}
+
+
+
+.honolulubox{
+    border-top: 1px solid white;
+    min-width: 200px;
+    flex-wrap: wrap;
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: rgb(65, 63, 63);
+    
+    
+}
+
+ .honolulu *{
+    white-space: normal;
+ }
+
+ .conferencia{
+    font-size: 2rem;
+    margin-top: 0px;
+    text-align: end;
+    font-weight: 600;
+ }
+
+ .honoluluText{
+    
+    text-align: start;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    
+ }
+
+ .honolulubox img{
+    border-right: 1px solid white;
+ }
+
+
+
+ .charla{
+    border-bottom:2px dotted black;
+ }
+
+ .orador{
+    font-size: 2.5rem;
+    margin-top: 0px;
+    font-weight: 600;
+    
+ }
+
+ .formText{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+ }
+
+ input{
+    border-radius: 4px;
+    width: 48%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: solid 1px #d8d7d7;
+}
+
+form textarea{
+    margin: 1.5rem;
+    margin-bottom: 0px;
+    width: 50%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: solid 1px #d8d7d7;
+}
+
+.submitText {
+    color: #757575;
+    width: 50%;
+    margin:auto;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    text-align: start;
+}
+
+.submit{
+    margin: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgb(136,213,49);
+    background: linear-gradient(90deg, rgba(136,213,49,1) 0%, rgba(156,218,76,1) 100%);
+    border: none;
+    height: 2rem;
+}
+
+
+footer{
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+ }
+
+ .footer{
+    background: rgb(3,65,102);
+    background: linear-gradient(90deg, rgba(3,65,102,1) 54%, rgba(2,125,148,1) 100%);
+ }
